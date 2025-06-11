@@ -5,7 +5,7 @@ import { handleChatMessage } from './index.js';
 const app = express();
 
 const allowedOrigins = [
-    'https://chatboat-mocha.vercel.app/',
+    'https://chatboat-mocha.vercel.app',
     'http://127.0.0.1:5500',
     'http://localhost:5500'
 ];
