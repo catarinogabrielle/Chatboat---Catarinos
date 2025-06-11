@@ -24,7 +24,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Servidor do Chatbot está no ar!');
+    res.send('Servidor do Chatbot no ar!');
 });
 
 app.post('/chat', async (req, res) => {
